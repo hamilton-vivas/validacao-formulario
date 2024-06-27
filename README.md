@@ -30,13 +30,13 @@ src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/
 1 - Clone
 
 ```
-https://github.com/hamilton-vivas/desafioQuest-validacaoFormulario.git
+https://github.com/hamilton-vivas/validacao-formulario.git
 ```
 
 2 - Acesse a pasta do projeto
 
 ```
-desafioQuest-validacaoFormulario
+validacao-formulario
 ```
 
 ### Desafios enfrentados
