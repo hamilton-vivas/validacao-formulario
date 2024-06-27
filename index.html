@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio DevQuest Formulário com validação - JavaScript Intermediário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <section class="quadro-mensagem">
+                <h2 class="titulo-mensagem">FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h2>
+                <p class="texto-mensagem">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+            </section>
+
+            <section class="quadro-formulario">
+                <form action="#" method="post">
+                    <input class="input" type="text" name="nome" placeholder="Nome completo *">
+                    <p class="campo-obrigatorio esconder">campo obrigatório</p>
+
+                    <input class="input" type="text" name="email" placeholder="Email *">
+                    <p class="campo-obrigatorio esconder">campo obrigatório</p>
+
+                    <input class="input" type="text" name="telefone" placeholder="Telefone *">
+                    <p class="campo-obrigatorio esconder">campo obrigatório</p>
+
+                    <textarea class="input mensagem"  name="mensagem" placeholder="Mensagem *"></textarea>
+                    <p class="campo-obrigatorio last esconder">campo obrigatório</p>
+
+                    <p class="campos-obrigatorios">*campos obrigatórios</p>
+                    <input class="enviar" type="submit" value="Enviar">
+                </form>
+            </section>
+        </div>
+    </main>
+    
+    <script src="src/js/index.js"></script>
+</body>
+</html>

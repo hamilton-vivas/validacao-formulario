@@ -1,0 +1,121 @@
+html {
+    background-color: #e5e5e5;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    min-height: 402px;
+    align-items:center ;
+    justify-content: space-between;
+    background-image:linear-gradient(#d8679d, #6d80df), url(/src/image/bg-repeat.jpg);
+}
+
+.container .titulo-mensagem {
+    width: 287px;
+    height: 46px;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-left: 50px;
+    margin-bottom: 11px;
+}
+
+.container .texto-mensagem {
+    width: 300px;
+    height: 54px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 50px;
+    color: #ffffff;
+}
+
+.container .quadro-formulario {
+    background-color: #ffffff;
+    width: 340px;
+    height: 378px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.container .quadro-formulario .input {
+    width: 298px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.container .quadro-formulario .input.mensagem{
+    height: 100px;
+    padding-top: 4px;
+}
+
+.input::placeholder {
+   color: #A8A8A8;
+} 
+
+.container .quadro-formulario .input.vazio {
+   border: 1px solid #F52E2E;
+}
+
+.container .quadro-formulario .input.preenchido {
+   border: 1px solid #00C22B;
+}
+
+.container .quadro-formulario form {
+    padding: 5px 20px;
+}
+
+.container .quadro-formulario .campo-obrigatorio {
+    color:#F52E2E;
+    font-size: 8px;
+    font-weight: 400;
+    margin: 0;
+    position: absolute;
+}
+
+ .container .quadro-formulario .campo-obrigatorio.last{
+    transform: translateY(-4px);
+    position: fixed;
+} 
+
+.container .quadro-formulario .campos-obrigatorios {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 7px;
+    transform: translateX(-5px);
+}
+
+.container .quadro-formulario .enviar {
+    width: 298px;
+    height: 41px;
+    background-color: #3CCC87;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.container .quadro-formulario .esconder {
+    display: none;
+}
