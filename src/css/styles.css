@@ -65,6 +65,7 @@ main {
 .container .quadro-formulario .input.mensagem{
     height: 100px;
     padding-top: 4px;
+    resize: none;
 }
 
 .input::placeholder {
